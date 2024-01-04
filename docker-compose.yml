@@ -1,0 +1,8 @@
+version: '0.0.1'
+services:
+  turbo-bpo-fe:
+    build: .
+    ports:
+      - '80:80'
+    expose:
+      - '80'

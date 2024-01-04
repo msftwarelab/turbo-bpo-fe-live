@@ -1,0 +1,15 @@
+Description=turbo-fe-staging  service
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+Restart=always
+RestartSec=1
+User=root
+ExecStart=/usr/bin/env yarn /var/www/turbo-bpo-live
+
+[Install]
+WantedBy=multi-user.target
+
+
+

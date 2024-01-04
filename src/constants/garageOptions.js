@@ -1,0 +1,15 @@
+export default [
+  { value: 'NONE', label: 'None' },
+  { value: '1 carport', label: '1 carport' },
+  { value: '2 carport', label: '2 carport' },
+  { value: '3 carport', label: '3 carport' },
+  { value: '4 carport', label: '4 carport' },
+  { value: '1 car attached', label: '1 car attached' },
+  { value: '2 car attached', label: '2 car attached' },
+  { value: '3 car attached', label: '3 car attached' },
+  { value: '4 car attached', label: '4 car attached' },
+  { value: '1 car detached', label: '1 car detached' },
+  { value: '2 car detached', label: '2 car detached' },
+  { value: '3 car detached', label: '3 car detached' },
+  { value: '4 car detached', label: '4 car detached' },
+];

@@ -1,0 +1,16 @@
+export default {
+  A: 'ACTIVE',
+  ACTV: 'ACTIVE',
+  Active: 'ACTIVE',
+  'Active Contingent': 'ACTIVE',
+  ACT: 'ACTIVE',
+  'A/I': 'ACTIVE',
+  P: 'PENDING',
+  Pending: 'PENDING',
+  PEN: 'PENDING',
+  U: 'PENDING',
+  S: 'SOLD',
+  CLSD: 'SOLD',
+  Sold: 'SOLD',
+  SLD: 'SOLD',
+};

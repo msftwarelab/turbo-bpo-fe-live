@@ -1,0 +1,7 @@
+.theme-modern {
+  @each $color, $value in $theme-colors {
+    .text-#{$color} {
+      color: $dark !important;
+    }
+  }
+}
